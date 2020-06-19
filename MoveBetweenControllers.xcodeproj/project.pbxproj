@@ -22,8 +22,6 @@
 		316CC5FB249CEDA4007A97A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316CC601249CF00A007A97A2 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		316CC603249CF306007A97A2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		316CC62D249D132C007A97A2 /* MoveBetweenControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveBetweenControllersTests.swift; sourceTree = "<group>"; };
-		316CC62F249D132C007A97A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				316CC5EC249CED9E007A97A2 /* MoveBetweenControllers */,
-				316CC62C249D132C007A97A2 /* MoveBetweenControllersTests */,
 				316CC5EB249CED9E007A97A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,15 +62,6 @@
 				316CC5FB249CEDA4007A97A2 /* Info.plist */,
 			);
 			path = MoveBetweenControllers;
-			sourceTree = "<group>";
-		};
-		316CC62C249D132C007A97A2 /* MoveBetweenControllersTests */ = {
-			isa = PBXGroup;
-			children = (
-				316CC62D249D132C007A97A2 /* MoveBetweenControllersTests.swift */,
-				316CC62F249D132C007A97A2 /* Info.plist */,
-			);
-			path = MoveBetweenControllersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
