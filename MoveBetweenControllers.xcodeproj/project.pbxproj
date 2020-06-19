@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		316CC5EE249CED9E007A97A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CC5ED249CED9E007A97A2 /* AppDelegate.swift */; };
-		316CC5F0249CED9E007A97A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CC5EF249CED9E007A97A2 /* SceneDelegate.swift */; };
-		316CC5F2249CED9F007A97A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CC5F1249CED9F007A97A2 /* ViewController.swift */; };
-		316CC5F5249CED9F007A97A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316CC5F3249CED9F007A97A2 /* Main.storyboard */; };
 		316CC5F7249CEDA4007A97A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316CC5F6249CEDA4007A97A2 /* Assets.xcassets */; };
 		316CC5FA249CEDA4007A97A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316CC5F8249CEDA4007A97A2 /* LaunchScreen.storyboard */; };
+		316CC602249CF00A007A97A2 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CC601249CF00A007A97A2 /* NavigationViewController.swift */; };
+		316CC604249CF306007A97A2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CC603249CF306007A97A2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		316CC5EA249CED9E007A97A2 /* MoveBetweenControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveBetweenControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		316CC5ED249CED9E007A97A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		316CC5EF249CED9E007A97A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		316CC5F1249CED9F007A97A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		316CC5F4249CED9F007A97A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		316CC5F6249CEDA4007A97A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316CC5F9249CEDA4007A97A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316CC5FB249CEDA4007A97A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316CC601249CF00A007A97A2 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		316CC603249CF306007A97A2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		316CC62D249D132C007A97A2 /* MoveBetweenControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveBetweenControllersTests.swift; sourceTree = "<group>"; };
+		316CC62F249D132C007A97A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				316CC5EC249CED9E007A97A2 /* MoveBetweenControllers */,
+				316CC62C249D132C007A97A2 /* MoveBetweenControllersTests */,
 				316CC5EB249CED9E007A97A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,14 +58,22 @@
 			isa = PBXGroup;
 			children = (
 				316CC5ED249CED9E007A97A2 /* AppDelegate.swift */,
-				316CC5EF249CED9E007A97A2 /* SceneDelegate.swift */,
-				316CC5F1249CED9F007A97A2 /* ViewController.swift */,
-				316CC5F3249CED9F007A97A2 /* Main.storyboard */,
+				316CC601249CF00A007A97A2 /* NavigationViewController.swift */,
+				316CC603249CF306007A97A2 /* SecondViewController.swift */,
 				316CC5F6249CEDA4007A97A2 /* Assets.xcassets */,
 				316CC5F8249CEDA4007A97A2 /* LaunchScreen.storyboard */,
 				316CC5FB249CEDA4007A97A2 /* Info.plist */,
 			);
 			path = MoveBetweenControllers;
+			sourceTree = "<group>";
+		};
+		316CC62C249D132C007A97A2 /* MoveBetweenControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				316CC62D249D132C007A97A2 /* MoveBetweenControllersTests.swift */,
+				316CC62F249D132C007A97A2 /* Info.plist */,
+			);
+			path = MoveBetweenControllersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +136,6 @@
 			files = (
 				316CC5FA249CEDA4007A97A2 /* LaunchScreen.storyboard in Resources */,
 				316CC5F7249CEDA4007A97A2 /* Assets.xcassets in Resources */,
-				316CC5F5249CED9F007A97A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +146,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316CC5F2249CED9F007A97A2 /* ViewController.swift in Sources */,
+				316CC604249CF306007A97A2 /* SecondViewController.swift in Sources */,
+				316CC602249CF00A007A97A2 /* NavigationViewController.swift in Sources */,
 				316CC5EE249CED9E007A97A2 /* AppDelegate.swift in Sources */,
-				316CC5F0249CED9E007A97A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		316CC5F3249CED9F007A97A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				316CC5F4249CED9F007A97A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		316CC5F8249CEDA4007A97A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = usonicchantrerelle.MoveBetweenControllers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = usonicchantrerelle.MoveBetweenControllers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
